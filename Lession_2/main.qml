@@ -64,18 +64,6 @@ Window {
 
     }
 
-    TextArea{
-        id: infa_about
-        anchors.left: name_patcient.right
-        width: 200
-        height: 100
-        BorderImage {
-            id: qqqq
-            source: "file"
-            width: 100; height: 100
-            border.left: 5; border.top: 5
-            border.right: 5; border.bottom: 5
-        }
-        placeholderText: qsTr("information about yourself")
-    }
+
+
 }
